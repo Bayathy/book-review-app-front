@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add -D eslint eslite-config-bayathy
+
+PATH: 
+  C:\Program Files\Java\jdk1.8.0_301\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\ProgramData\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Program Files\Go\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\nodejs\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\misos\.cargo\bin;C:\Users\misos\AppData\Local\Android\Sdk\platform-tools;C:\Users\misos\AppData\Local\Programs\Python\Python38\;C:\anaconda3;C:\anaconda3\Library\usr\bin;C:\anaconda3\Library\bin;C:\anaconda3\Scripts;C:\Users\misos\AppData\Local\Microsoft\WindowsApps;C:\Users\misos\AppData\Local\Programs\Microsoft VS Code\bin;C:\MInGW\mingw32\bin;C:\Users\misos\.dotnet\tools;C:\Flutter\flutter\bin;C:\Program Files\heroku\bin;C:\Users\misos\AppData\Local\Yarn\bin;D:\JetBrains\WebStorm 2021.1.1\bin;;C:\Users\misos\go\bin;C:\Users\misos\go\bin;C:\tools\mysql\current\bin;C:\Users\misos\AppData\Roaming\npm;D:\Devtools\flutter\bin;C:\Users\misos\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;D:\IntelliJ IDEA 2021.3\bin;;D:\Devtools\Webdriver;
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/eslite-config-bayathy: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66097:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140749:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141721:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141643:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "Book-review-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/Bayathy/book-review-app-front.git",
+    "author": "Bayathy <misosoup0321@icloud.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
